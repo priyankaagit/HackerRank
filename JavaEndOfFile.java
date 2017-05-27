@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class JavaEndOfFile {
 
 	/**
@@ -9,15 +10,12 @@ public class JavaEndOfFile {
 		String s = null;
 		int i = 1;
 		Scanner sc = new Scanner(System.in);
-		do{
+		do {
 			s = sc.nextLine();
-			System.out.println(i +" " + s);
+			System.out.println(i + " " + s);
 			i++;
-		}while(s!=null);
-		 
-            
-        }
-        
+		} while (s != null);
+
 	}
 
-
+}
